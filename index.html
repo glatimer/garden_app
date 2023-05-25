@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+    <link href="css/styles.css" rel="stylesheet" type="text/css">
+    <script src="js/jquery-1.12.2.js"></script>
+    <script src="js/scripts.js"></script>
+    <title>Willamette Valley Garden Planner</title>
+  </head>
+  <body>
+    <div id="header">
+      <div class="container">
+        <div class="jumbotron">
+          <div class="row">
+            <div class="col-md-12">
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!--draggable produce options -->
+    <h4>This plot is based on a standard 3x6 foot raised bed and each square represents a square foot. Drag the items onto your garden bed to map out your plants.  Simply click on an item to remove it from the garden.</h4>
+    <div id="draggable-images" class="container-fluid">
+      <div class="row" align="center">
+        <img src="images/basil.png" alt="basil" draggable="true" id="basil" ondragstart="drag(event)">
+        <img src="images/beetroot.png" alt="beetroot" draggable="true" id="beetroot" ondragstart="drag(event)">
+        <img src="images/cabbage.png" alt="cabbage" draggable="true" id="cabbage" ondragstart="drag(event)">
+        <img src="images/Carrot.png" alt="carrot" draggable="true" id="carrot" ondragstart="drag(event)">
+        <img src="images/eggplant.png" alt="eggplant" draggable="true" id="eggplant" ondragstart="drag(event)">
+        <img src="images/lavender.png" alt="lavender" draggable="true" id="lavender" ondragstart="drag(event)">
+        <img src="images/peas.png" alt="peas" draggable="true" id="peas" ondragstart="drag(event)">
+        <img src="images/pepper.png" alt="pepper" draggable="true" id="pepper" ondragstart="drag(event)">
+        <img src="images/radish.png" alt="radish" draggable="true" id="radish" ondragstart="drag(event)">
+        <img src="images/rosemary.png" alt="rosemary" draggable="true" id="rosemary" ondragstart="drag(event)">
+        <img src="images/Tomato.png" alt="tomato" draggable="true" id="tomato" ondragstart="drag(event)">
+      </div>
+    </div>
+
+    <!-- sidebar for appended information -->
+    <div id="sidebar">
+      <h3>How to plant your seeds:</h3>
+      <div id="information">
+        <ul></ul>
+      </div>
+    </div>
+
+    <!-- garden plot grid -->
+    <div class="container-fluid">
+      <table class="gardenBed" align="center">
+        <tr>
+          <td>
+            <div class="square" id="1" ondrop="drop(event)" ondragover="allowDrop(event)">
+            </div>
+          </td>
+          <td>
+            <div class="square" id="2" ondrop="drop(event)" ondragover="allowDrop(event)">
+            </div>
+          </td>
+          <td>
+            <div class="square" id="3" ondrop="drop(event)" ondragover="allowDrop(event)">
+            </div>
+          </td>
+          <td>
+            <div class="square" id="4" ondrop="drop(event)" ondragover="allowDrop(event)">
+            </div>
+          </td>
+          <td>
+            <div class="square" id="5" ondrop="drop(event)" ondragover="allowDrop(event)">
+            </div>
+          </td>
+          <td>
+            <div class="square" id="6" ondrop="drop(event)" ondragover="allowDrop(event)">
+            </div>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <div class="square" id="7" ondrop="drop(event)" ondragover="allowDrop(event)">
+            </div>
+          </td>
+          <td>
+            <div class="square" id="8" ondrop="drop(event)" ondragover="allowDrop(event)">
+            </div>
+          </td>
+          <td>
+            <div class="square" id="9" ondrop="drop(event)" ondragover="allowDrop(event)">
+            </div>
+          </td>
+          <td>
+            <div class="square" id="10" ondrop="drop(event)" ondragover="allowDrop(event)">
+            </div>
+          </td>
+          <td>
+            <div class="square" id="11" ondrop="drop(event)" ondragover="allowDrop(event)">
+            </div>
+          </td>
+          <td>
+            <div class="square" id="12" ondrop="drop(event)" ondragover="allowDrop(event)">
+            </div>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <div class="square" id="13" ondrop="drop(event)" ondragover="allowDrop(event)">
+            </div>
+          </td>
+          <td>
+            <div class="square" id="14" ondrop="drop(event)" ondragover="allowDrop(event)">
+            </div>
+          </td>
+          <td>
+            <div class="square" id="15" ondrop="drop(event)" ondragover="allowDrop(event)">
+            </div>
+          </td>
+          <td>
+            <div class="square" id="16" ondrop="drop(event)" ondragover="allowDrop(event)">
+            </div>
+          </td>
+          <td>
+            <div class="square" id="17" ondrop="drop(event)" ondragover="allowDrop(event)">
+            </div>
+          </td>
+          <td>
+            <div class="square" id="18" ondrop="drop(event)" ondragover="allowDrop(event)">
+            </div>
+          </td>
+        </tr>
+      </table>
+    </div>
+
+
+      <!-- <div id="gardenBed">
+        <div id="div1" class="box" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+        <div id="div2" class="box" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+      </div> -->
+
+
+
+  </body>
+</html>

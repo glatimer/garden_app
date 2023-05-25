@@ -1,0 +1,60 @@
+.square {
+    width:100px;
+    height:100px;
+    background-color: white;
+    border: solid 1px black;
+}
+
+#sidebar {
+  border: dotted 3px #FFFEF3;
+  background-color: #d4d8cd;
+  float: left;
+  padding: 20px;
+}
+
+h4 {
+  text-align: center;
+  font-family: courier new;
+  padding-left: 80px;
+  padding-right: 80px;
+}
+
+#draggable-images {
+  margin-bottom: 30px;
+  margin-top: 30px;
+}
+
+table {
+  float: center;
+}
+
+img {
+  max-height: 100px;
+  max-width: 100px;
+}
+
+
+#div1 #div2 #div3 #div4 #div5 #div6 #div7 #div8 #div9 #div10 #div11 #div12 #div13 #div14 #div15 #div16 #div17 #div18  {
+width:150px;height:150px;
+}
+
+body {
+  padding-left: 30px;
+  padding-right: 30px;
+  border: solid 50px #33659A;
+  padding-bottom: 1000px;
+}
+
+.jumbotron {
+  border: solid 1px black;
+  margin-top: 45px;
+  position: relative;
+  background: white url("../images/wreath.png") center center;
+  width: 100%;
+  height: 300px;
+  background-size; cover;
+  overflow: hidden;
+
+h1 {
+  text-align: center;
+}
